@@ -1,0 +1,16 @@
+{
+  "name": "elitea-mcp-training-e2e",
+  "version": "1.0.0",
+  "description": "Playwright E2E test suite for EPAM website validation",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
